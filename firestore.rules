@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check if the authenticated user is the verified admin
+    function isAdminVerified() {
+      return request.auth != null &&
+             request.auth.token.admin == true &&
+             request.auth.token.mfa_verified == true &&
+             request.auth.token.mfa_time > (request.time.seconds() - 86400);
+    }
+
+    match /portfolio/{document} {
+      allow read: if true;
+      allow write: if isAdminVerified();
+    }
+
+    match /portfolio_messages/{document} {
+      allow read: if isAdminVerified();
+      allow write: if false; // Only Cloud Functions with Admin privileges can write here
+    }
+
+    match /secure_otps/{document} {
+      allow read, write: if false; // Cloud Functions bypass rules
+    }
+
+    match /otp_rate_limits/{document} {
+      allow read, write: if false; // Cloud Functions bypass rules
+    }
+  }
+}
+
