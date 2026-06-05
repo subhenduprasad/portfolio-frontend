@@ -117,7 +117,7 @@ export default function Timeline() {
       company: "Collaborative Engineering Node",
       duration: "2025 - PRESENT // COLLABORATE",
       desc: "+ Collaborating on an adaptive online code judging platform with a development team\n+ Contributing to backend services, evaluation workflows, and system design\n+ Working with Git-based collaborative development practices\n- Reworked initial implementations and optimized project structure based on team feedback",
-      isPresent: false
+      isPresent: true
     }
   ];
 
