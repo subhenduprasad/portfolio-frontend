@@ -217,21 +217,21 @@ export const contactDetails = {
 
 export const defaultProfile = {
   name: "Subhendu Prasad Hembram",
-  jobTitle: "Systems & Fullstack Architect",
-  address: "Mayurbhanj, India",
+  jobTitle: "Systems & Backend Engineer",
+  address: "Mayurbhanj, Odisha, India",
   college: "GIFT Autonomous",
   website: "subhenduhembram.dev",
   websiteUrl: "https://subhenduhembram.dev",
   imageUrl: "https://ik.imagekit.io/wydlez00d/portfolio/Subhendu_Prasad_7Vw9ILVO-.png?updatedAt=1780331248940",
   bgImageUrl: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
   resumeUrl: "",
-  bio: "I am a passionate systems engineer and concurrent fullstack architect who thrives at the intersection of logical speed and expressive user interfaces. Experienced in building high-throughput multi-threaded backends in C++, designing distributed microservices clustered over Redis, and constructing interactive motion-driven 3D web portals.",
+  bio: "I am a Computer Science student passionate about backend development, systems programming, and software architecture. I enjoy solving complex problems, exploring low-level concepts, and building practical applications ranging from distributed systems and database engines to full-stack platforms. I am constantly learning, experimenting, and refining my skills to become a strong software engineer.",
   experiences: [
     {
-      role: "Software Development Intern",
-      company: "Research & Development Node",
-      duration: "Present",
-      desc: "Developing low-latency core network utilities, profiling system allocations using custom allocator pools, and optimizing thread synchronization constructs in C++20.",
+      role: "Software Engineer (Independent Projects)",
+      company: "Personal Projects & Continuous Learning",
+      duration: "2021 - Present",
+      desc: "Passionate about understanding how software works under the hood. Building projects, exploring backend systems, and continuously learning through hands-on development and problem solving.",
       isPresent: true
     },
     {

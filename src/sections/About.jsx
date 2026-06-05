@@ -372,7 +372,7 @@ export default function About({ profile: passedProfile, projects: passedProjects
             </div>
 
             <p className="text-[10px] md:text-xs text-gray-500 max-w-xl font-light italic mt-3 md:mt-4 select-text leading-relaxed px-4 md:px-0">
-              "Whether optimizing pointer registers in C++ thread-loops or rendering geometric shaders in Blender, I thrive at the critical intersection of logical performance and responsive digital interfaces."
+              "Driven by curiosity for software internals, backend architecture, and problem solving, I focus on building reliable systems that are efficient, scalable, and maintainable."
             </p>
 
             <button
