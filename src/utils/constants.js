@@ -186,20 +186,20 @@ export const projects = [
     links: { code: "https://github.com/subhenduprasad/NextHire", demo: "https://github.com/subhenduprasad/NextHire" }
   },
   {
-    projectName: "TBBYYS Club Site",
-    languages: ["React", "React Router", "Google Maps API", "TailwindCSS"],
-    status: "live",
-    description: "A modern, responsive sports and events management portal for TBBYYS Club (Est. 1963). Implements event registration, live schedule streams, secure authentication, and a dynamic event gallery.",
-    stats: { latency: "14ms", uptime: "99.9%", activeMembers: "500+" },
-    links: { code: "https://github.com/subhenduprasad", demo: "https://github.com/subhenduprasad" }
+    projectName: "Mini Database Engine",
+    languages: ["C++", "File Storage", "DBMS Internals"],
+    status: "developed",
+    description: "A lightweight C++ database engine supporting basic SQL operations, custom file-based storage, data serialization, indexing, and record management.",
+    stats: { storage: "File-Based", operations: "CRUD", indexing: "Custom" },
+    links: { code: "https://github.com/subhenduprasad/Mini-Database-Engine", demo: "https://github.com/subhenduprasad/Mini-Database-Engine" }
   },
   {
-    projectName: "TBBYYS Club Page",
-    languages: ["React", "React Router", "TailwindCSS"],
+    projectName: "Chat Application",
+    languages: ["C++", "Socket Programming", "Threads"],
     status: "developed",
-    description: "A dedicated client page and administration interface for managing members, tournaments, athletes, and scheduler lists of TBBYYS Club.",
-    stats: { latency: "11ms", activeUsers: "200+", database: "Firestore" },
-    links: { code: "https://github.com/subhenduprasad", demo: "https://github.com/subhenduprasad" }
+    description: "A socket-based chat system developed in C++ featuring real-time communication, multi-client support, and concurrent connection handling.",
+    stats: { protocol: "TCP", communication: "Real-Time", concurrency: "Multi-Client" },
+    links: { code: "https://github.com/subhenduprasad/Chat-Application", demo: "https://github.com/subhenduprasad/Chat-Application" }
   }
 ];
 
