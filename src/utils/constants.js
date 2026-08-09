@@ -223,7 +223,7 @@ export const defaultProfile = {
   website: "subhenduhembram.dev",
   websiteUrl: "https://subhenduhembram.dev",
   imageUrl: "https://ik.imagekit.io/wydlez00d/portfolio/Subhendu_Prasad_7Vw9ILVO-.png?updatedAt=1780331248940",
-  bgImageUrl: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop",
+  bgImageUrl: "https://ik.imagekit.io/wydlez00d/Subhendu-bg.png?updatedAt=1780485660988",
   resumeUrl: "",
   bio: "I am a Computer Science student passionate about backend development, systems programming, and software architecture. I enjoy solving complex problems, exploring low-level concepts, and building practical applications ranging from distributed systems and database engines to full-stack platforms. I am constantly learning, experimenting, and refining my skills to become a strong software engineer.",
   experiences: [
@@ -242,6 +242,6 @@ export const defaultProfile = {
       isPresent: false
     }
   ],
-  capabilities: ["C++20", "Node.js", "Express", "TypeScript", "Redis", "MongoDB", "MySQL", "Swift", "Blender", "three.js", "WebGL", "Framer Motion"]
+  capabilities: ["C++", "React.js", "Node.js", "Express", "TypeScript", "MongoDB", "MySQL", "REST APIs"]
 };
 
