@@ -237,7 +237,7 @@ export const defaultProfile = {
     {
       role: "B.Tech in Computer Science",
       company: "GIFT Autonomous",
-      duration: "2021 - 2025",
+      duration: "2022 - 2026",
       desc: "Completed B.Tech in Computer Science from GIFT Autonomous, developing expertise in Database Systems, Operating Systems, and TOC. Actively engaged in building real-world projects using the MERN Stack and modern development practices.",
       isPresent: false
     }
